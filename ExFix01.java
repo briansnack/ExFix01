@@ -8,7 +8,7 @@ class ExFix01 {
         System.out.println("Número matrícula do aluno: ");
         int matricula = leitor.nextInt();
         
-        leitor.nextLine(); // Consumir a nova linha pendente
+        leitor.nextLine(); 
 
         System.out.println("Nome do aluno: ");
         String nome = leitor.nextLine();
