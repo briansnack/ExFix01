@@ -7,6 +7,8 @@ class ExFix01 {
         Scanner leitor = new Scanner(System.in);
         System.out.println("Número matrícula do aluno: ");
         int matricula = leitor.nextInt();
+        
+        leitor.nextLine(); // Consumir a nova linha pendente
 
         System.out.println("Nome do aluno: ");
         String nome = leitor.nextLine();
@@ -23,7 +25,7 @@ class ExFix01 {
         System.out.println("Nome do aluno: " + nome);
         if (notaFinal >= 6) {
             System.out.println("Aprovado");
-        } else{
+        } else {
             System.out.println("Reprovado");
         }
         System.out.println("Nota final: " + notaFinal);
